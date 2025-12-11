@@ -1,0 +1,61 @@
+{
+  "測試案例 1: 純商品 ID (香蕉相關)": {
+    "input": [
+      24852
+    ],
+    "parsed_input": [
+      {
+        "original": 24852,
+        "product_id": 24852,
+        "product_name": "Banana"
+      }
+    ],
+    "recommendations": [
+      "Organic Avocado",
+      "Organic Baby Spinach",
+      "Organic Strawberries"
+    ],
+    "matched_rules_count": 3
+  },
+  "測試案例 2: 純商品名稱 (有機蔬果)": {
+    "input": [
+      "Organic Cilantro"
+    ],
+    "parsed_input": [
+      {
+        "original": "Organic Cilantro",
+        "product_id": 31717,
+        "product_name": "Organic Cilantro"
+      }
+    ],
+    "recommendations": [
+      "Limes"
+    ],
+    "matched_rules_count": 1
+  },
+  "測試案例 3: 混合輸入 (ID + 名稱)": {
+    "input": [
+      "Organic Raspberries",
+      21137
+    ],
+    "parsed_input": [
+      {
+        "original": "Organic Raspberries",
+        "product_id": 27966,
+        "product_name": "Organic Raspberries"
+      },
+      {
+        "original": 21137,
+        "product_id": 21137,
+        "product_name": "Organic Strawberries"
+      }
+    ],
+    "recommendations": [
+      "Organic Hass Avocado",
+      "Bag of Organic Bananas",
+      "Organic Baby Spinach",
+      "Banana"
+    ],
+    "matched_rules_count": 8
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "min_support": 0.005,
+  "min_confidence": 0.1,
+  "limit_rows": null,
+  "total_transactions": 33819106,
+  "basket_count": 3182490,
+  "n_rules": 112,
+  "n_products": 49688,
+  "training_time_seconds": 12.147488832473755
+}
