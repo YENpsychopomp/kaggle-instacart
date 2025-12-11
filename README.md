@@ -94,7 +94,7 @@ C. Top 20 Products by Reorder Rate
 
 A. ROC Curve
 
-![]
+![image](https://github.com/YENpsychopomp/kaggle-instacart/blob/main/result/roc_curve.png)
 
 (A) The model achieved an AUC of 0.7834, indicating strong ability to distinguish between repurchase and non-repurchase cases.
 
@@ -102,7 +102,7 @@ A. ROC Curve
 
 B. Precision-Recall Curve
 
-![]
+![image](https://github.com/YENpsychopomp/kaggle-instacart/blob/main/result/precision_recall_curve.png)
 
 (A) The Average Precision (AP) is 0.5693, showing models outperform random guessing.
 
@@ -110,7 +110,7 @@ B. Precision-Recall Curve
 
 C. Calibration Curve
 
-![]
+![image](https://github.com/YENpsychopomp/kaggle-instacart/blob/main/result/calibration_curve.png)
 
 (A) The predicted probabilities closely match actual outcomes.
 
@@ -120,7 +120,7 @@ C. Calibration Curve
 
 D. Confusion Matrix (Threshold = 0.0615)
 
-![]
+![image](https://github.com/YENpsychopomp/kaggle-instacart/blob/main/result/confusion_matrix.png)
 
 (A) True Positives: 987078; True Negatives: 9723382
 
@@ -132,7 +132,7 @@ D. Confusion Matrix (Threshold = 0.0615)
 
 E. Feature Importance (Gain)
 
-![]
+![image](https://github.com/YENpsychopomp/kaggle-instacart/blob/main/result/feature_importance.png)
 
 (A) The most important features are user-product interaction metrics such as up_order_rate, up_ordering_since_last_order, and up_order_rate_since_last_order.
 
