@@ -2,14 +2,6 @@
 商業資料分析 Kaggle競賽 InstaCart Market Basket Analysis 
 顧客回購預測及潛在商品組合洞察
 
-(商業資料分析)
-
-組別：第九組
-
-組員：C111118215王博是、C113118207顏仕祁、C113118234呂孟澤、C113118244吳雨傑
-
-計畫上傳日期(Filing Date)：114年12月7日
-
 **I. Research Motivation and Purpose:**
 
 In recent years, with the rapid growth of e-commerce platforms, improving customer repurchase rates and the accuracy of product recommendations has become a key factor in business competition. As students majoring in Information Management, we are likely to engage in related industries in the future. To prepare for potential job responsibilities, this study focuses on transaction records and product lists provided by the e-commerce platform Instacart. Through a Sliding Window-based feature extraction approach, we aim to capture users' short-term and long-term purchasing patterns, and build a system that can predict whether customers will repurchase certain products and generate personalized product recommendations.
